@@ -64,6 +64,21 @@ common:
   title: タイトル
   trace: トレース
   try: 試す
+  underConstruction: 作成中
+dashboard:
+  knowledgeInheritance:
+    description: 知識とノウハウの体系的な継承システム
+    title: ノウハウ継承
+  moreMenusComingSoon: さらなるメニューが近日公開予定です
+  openMenu: メニューを開く
+  realtimeManagement:
+    description: リアルタイムデータ分析と管理機能
+    title: リアルタイムマネジメント
+  snsInsight:
+    description: ソーシャルメディア分析とインサイト機能
+    title: SNSインサイト
+  subtitle: 業務効率化のための総合管理画面
+  title: ダッシュボード
 demo:
   inter_use_cases: ユースケース連携
 diagram:
@@ -348,6 +363,16 @@ generateText:
   result_placeholder: 生成された文章がここに表示されます
   source_info: 文章の元になる情報
   title: 文章生成
+knowledgeInheritance:
+  constructionMessage: ノウハウ継承機能を開発中です。しばらくお待ちください。
+  features:
+    documentManagement: ドキュメント体系化
+    expertSearch: エキスパート検索
+    knowledgeBase: ナレッジベース管理
+    learningPaths: 学習パス設計
+  plannedFeatures: 予定されている機能
+  subtitle: 知識とノウハウの体系的な継承・管理システム
+  title: ノウハウ継承
 landing:
   alert:
     description: >-
@@ -556,6 +581,7 @@ model:
 navigation:
   agentChat: Agent チャット
   chat: チャット
+  dashboard: ダッシュボード
   diagramGeneration: ダイアグラム生成
   flowChat: Flow チャット
   home: ホーム
@@ -608,6 +634,16 @@ rag:
   please_refer: をご参照ください。
   retrieving: Kendra から参考ドキュメントを取得しています...
   title: RAG チャット
+realtimeManagement:
+  constructionMessage: リアルタイムマネジメント機能を開発中です。しばらくお待ちください。
+  features:
+    alerts: インテリジェントアラート機能
+    analytics: 高度な分析機能
+    dashboards: リアルタイムダッシュボード
+    monitoring: システム監視とアラート
+  plannedFeatures: 予定されている機能
+  subtitle: リアルタイムデータ分析・監視・管理システム
+  title: リアルタイムマネジメント
 setting:
   ai_items:
     agent_name: Agent 名
@@ -650,6 +686,16 @@ sketch:
   clear: クリア
   pen_size: ペンサイズ
   upload_image: 画像をアップロード
+snsInsight:
+  constructionMessage: SNSインサイト機能を開発中です。しばらくお待ちください。
+  features:
+    reportGeneration: レポート自動生成
+    sentimentAnalysis: 感情分析
+    socialAnalytics: ソーシャルメディア分析
+    trendTracking: トレンド追跡
+  plannedFeatures: 予定されている機能
+  subtitle: ソーシャルメディア分析・インサイト・レポート機能
+  title: SNSインサイト
 stat:
   cache_read_tokens: キャッシュ読込
   cache_write_tokens: キャッシュ書込

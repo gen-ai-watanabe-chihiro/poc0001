@@ -42,6 +42,10 @@ import UseCaseBuilderMyUseCasePage from './pages/useCaseBuilder/UseCaseBuilderMy
 import { optimizePromptEnabled } from './hooks/useOptimizePrompt';
 import GenerateDiagramPage from './pages/GenerateDiagramPage.tsx';
 import WriterPage from './pages/WriterPage.tsx';
+import DashboardPage from './pages/DashboardPage';
+import RealtimeManagementPage from './pages/RealtimeManagementPage';
+import SnsInsightPage from './pages/SnsInsightPage';
+import KnowledgeInheritancePage from './pages/KnowledgeInheritancePage';
 import useUseCases from './hooks/useUseCases';
 import { Toaster } from 'sonner';
 
@@ -68,6 +72,22 @@ const routes: RouteObject[] = [
   {
     path: '/',
     element: <LandingPage />,
+  },
+  {
+    path: '/dashboard',
+    element: <DashboardPage />,
+  },
+  {
+    path: '/realtime-management',
+    element: <RealtimeManagementPage />,
+  },
+  {
+    path: '/sns-insight',
+    element: <SnsInsightPage />,
+  },
+  {
+    path: '/knowledge-inheritance',
+    element: <KnowledgeInheritancePage />,
   },
   {
     path: '/setting',

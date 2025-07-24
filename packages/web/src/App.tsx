@@ -23,6 +23,7 @@ import {
   PiTreeStructure,
   PiNotebook,
   PiGraph,
+  PiSquaresFour,
 } from 'react-icons/pi';
 import { Outlet } from 'react-router-dom';
 import Drawer, { ItemProps } from './components/Drawer';
@@ -77,6 +78,12 @@ const App: React.FC = () => {
       label: t('navigation.home'),
       to: '/',
       icon: <PiHouse />,
+      display: 'usecase' as const,
+    },
+    {
+      label: t('navigation.dashboard'),
+      to: '/dashboard',
+      icon: <PiSquaresFour />,
       display: 'usecase' as const,
     },
     {
