@@ -8,3 +8,7 @@ node_modules
 # MkDocs documentation
 site*/
 .cache
+
+
+# claude Code files
+.claude
